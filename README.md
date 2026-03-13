@@ -22,3 +22,10 @@
 ### 厚度計算流程
 ![厚度計算](assets/厚度計算.png)
 
+---
+#### 使用方法
+1. 請先至 [雲端](https://drive.google.com/file/d/1uszqjG0eNj8xi8tqTBilCwoXdaNyKi96/view?usp=drive_link) 下載模型權重
+2. 如欲訓練模型，請使用 train_hrnet.py
+3. 如欲推論影像，請使用 val.py
+4. 計算基底膜厚度，請使用 measure.py
+5. 分析由 4. 跑出來的數據，請使用 statistic.py
